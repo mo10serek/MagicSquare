@@ -12,9 +12,7 @@ import java.util.List;
 
 public class MagicSquare {
 
-	public static void main(String[] args) {
-
-		int[] magicSqurare = new int[] {1,2,3,4,5,6,7,8,9};
+	public static void MagicSquare(int[] magicSqurare) {
 		
 		for(int counter = 1; counter < 10; counter++) {
 			for(int counter2 = 1; counter2 < 10; counter2++) {
@@ -66,6 +64,16 @@ public class MagicSquare {
 					}
 				}
 			}
-		}		
+		}	
+		
+	}
+	
+	public static void main(String[] args) {
+
+		int[] magicSqurare = new int[] {1,2,3,4,5,6,7,8,9};
+		
+		MagicSquare(magicSqurare);
+		
+			
 	}
 }
